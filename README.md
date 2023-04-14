@@ -1,28 +1,26 @@
-# site-portfolio
+## Introduction
 
-My Portfolio Website :man_technologist:
-Welcome to my portfolio website! This website was created using HTML, CSS, and JavaScript. It showcases my skills, projects, and contact information.
+Welcome to my portfolio website! <br/>
+This website was created using HTML, CSS, and JavaScript with DOM manipulation, Flexbox, Events, and CSS Media Query. It showcases: <br/>
 
-:rocket: Getting Started
-To view the website, simply open the index.html file in your web browser.
-
-:computer: Technologies Used
-This website was built using the following technologies:
-
-HTML
-CSS
-JavaScript
-:art: Design
-The website was designed with a clean and modern aesthetic in mind. I used a simple color scheme and layout to make it easy to navigate and read.
+- My skills
+- Projects
+- Contact information.
 
 ## Preview
 
 <img src="https://github.com/glisboa123/site-portfolio/blob/main/preview.png?raw=true"/>
 
-:bulb: Projects
-In the projects section, you'll find examples of my work in web development. Each project includes a brief description and a link to view the live site or GitHub repository.
+## Technologies Used
 
-:handshake: Contact
-If you'd like to get in touch with me, you can find my contact information in the contact section of the website.
+This website was built using the following technologies:
 
-Thank you for visiting my portfolio website! :smiley:
+- HTML
+- CSS with Media Query
+- JavaScript with DOM manipulation
+- Flexbox
+- Events
+
+## Contact
+
+If you have any questions or would like to get in touch with me, please send an email to giulianorodrigues2018@gmail.com or visit my profile on LinkedIn: https://www.linkedin.com/in/giulianorodriguess/.
