@@ -144,16 +144,20 @@ footer {
   font-size: 24px;
   letter-spacing: -0.015rem;
   font-weight: bold;
-
   margin-left: 30px;
 }
 
 .links-navegacao {
   color: #1e1e1e;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 500;
   letter-spacing: -0.015rem;
   margin-right: 16px;
   cursor: pointer;
+}
+
+.links-navegacao:hover {
+  color: rgb(8, 133, 8);
 }
 
 .hero-info {
@@ -205,7 +209,7 @@ footer {
   cursor: pointer;
 }
 
-.section-habilities {
+.section-abilities {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -246,7 +250,7 @@ footer {
 }
 
 .ability-card-subtitle {
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 7px;
   text-align: center;
   max-width: 80%;
@@ -266,7 +270,7 @@ li {
   display: flex;
   width: 100%;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
 }
 
@@ -305,6 +309,11 @@ li {
   height: 25px;
 }
 
+.icon-link {
+  width: 25px;
+  height: 25px;
+}
+
 .portfolio-subtitles {
   align-items: center;
   justify-content: center;
@@ -338,7 +347,7 @@ li {
   align-items: flex-start;
   justify-content: flex-start;
   width: 800px;
-  height: 100px;
+  height: 125px;
   background-color: #d9d9d9;
   border-radius: 16px;
   margin-top: 16px;
@@ -365,14 +374,15 @@ li {
 
 .section-experiences-card-title {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: bold;
   margin: 0;
 }
 
 .section-experiences-card-subtitle {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 500;
   margin: 0;
   margin-top: 2px;
   margin-bottom: 2px;
@@ -380,7 +390,7 @@ li {
 
 .section-experiences-card-text {
   font-family: "Montserrat", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   margin: 0;
   margin-top: 3px;
 }
@@ -408,6 +418,12 @@ li {
   margin: 0;
   padding-left: 15px;
   margin-bottom: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.email-info:hover {
+  color: rgb(8, 133, 8);
 }
 
 .footer-content {
@@ -436,50 +452,4 @@ li {
 
 .btn-return-to-top.visible {
   visibility: visible;
-}
-
-@media only screen and (max-device-width: 912px) {
-  .content-container {
-    width: 96vw;
-    max-width: 96vw;
-  }
-
-  .section-hero {
-    width: 96vw;
-    height: 50vh;
-  }
-
-  .hero-info {
-    width: 100%;
-  }
-
-  .hero-info-image {
-    width: 200px;
-  }
-
-  .ability-cards-container {
-    row-gap: 36px;
-    grid-template-columns: auto;
-    margin-top: 12px;
-  }
-
-  .btn-return-to-top {
-    left: 90%;
-    cursor: pointer;
-    margin-bottom: 16%;
-  }
-
-  .section-experience-card {
-    width: 90%;
-  }
-
-  .section-portfolio-grid {
-    grid-template-columns: auto;
-    row-gap: 36px;
-    margin-top: 24px;
-  }
-
-  .footer-content {
-    width: 100%;
-  }
 }
