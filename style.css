@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,600&display=swap");
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fefefe;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 50px;
+  font-size: 50px;
+  color: #1e1e1e;
+  margin: 0px;
+}
+
+h2.verde {
+  color: #219653;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0px;
+}
+
+a {
+  color: #1e1e1e;
+}
+
+.button-contato-nav {
+  height: 56px;
+  border-radius: 16px;
+  background-color: #219653;
+  border-width: 0px;
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.16rem;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.button-contact-section {
+  height: 56px;
+  border-radius: 16px;
+  background-color: #219653;
+  border-width: 0px;
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.16rem;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.btn-return-to-top {
+  height: 56px;
+  border-radius: 16px;
+  background-color: #219653;
+  border-width: 0px;
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.16rem;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 156px;
+  background-color: #d9d9d9;
+  align-items: center;
+  justify-content: center;
+}
+
+.root-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.content-container {
+  display: flex;
+  width: 1300px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 98vw;
+  height: 98vh;
+}
+
+.barra-nav {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkseagreen;
+}
+
+.box-1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.box-2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.titulo-navegacao {
+  color: #1e1e1e;
+  font-size: 24px;
+  letter-spacing: -0.015rem;
+  font-weight: bold;
+
+  margin-left: 30px;
+}
+
+.links-navegacao {
+  color: #1e1e1e;
+  font-size: 16px;
+  letter-spacing: -0.015rem;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  height: 700px;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.hero-info-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.hero-info-image {
+  height: 320px;
+  width: 240px;
+  border-radius: 40px;
+  border-color: #219653;
+  border-width: 4px;
+  border-style: solid;
+  margin-top: 80px;
+}
+
+.hero-info-subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 68%;
+  margin-top: 22px;
+}
+
+.hero-info-icons-container {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.hero-info-icons-img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.section-habilities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 98vw;
+  padding-bottom: 45px;
+  padding-top: 20px;
+}
+
+.ability-cards-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  column-gap: 36px;
+  margin-top: 48px;
+}
+
+.ability-card {
+  width: 312px;
+  height: 450px;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  border-radius: 12px;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  flex-direction: column;
+}
+
+.ability-card-icon-img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.ability-card-subtitle {
+  font-size: 16px;
+  margin-top: 7px;
+  text-align: center;
+  max-width: 80%;
+}
+
+.ability-list {
+  width: 90%;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.section-portfolio {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.section-portfolio-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  column-gap: 36px;
+  margin-top: 48px;
+}
+
+.section-portfolio-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 384px;
+  height: 300px;
+  border-width: 2px;
+  border-color: #d9d9d9;
+  border-style: solid;
+  border-radius: 24px;
+}
+
+.section-portfolio-img {
+  width: 220px;
+  height: 156px;
+  margin-bottom: 5px;
+}
+
+.icon-github {
+  width: 25px;
+  height: 25px;
+}
+
+.portfolio-subtitles {
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 0px;
+  text-align: center;
+  margin: 5px;
+}
+
+.icons-portfolio {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+
+.section-experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+.section-experience-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 800px;
+  height: 100px;
+  background-color: #d9d9d9;
+  border-radius: 16px;
+  margin-top: 16px;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.section-experience-card-img1 {
+  width: 90px;
+}
+
+.section-experience-card-img2 {
+  width: 90px;
+  height: 70px;
+}
+
+.section-experience-card-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 16px;
+}
+
+.section-experiences-card-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.section-experiences-card-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.section-experiences-card-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  margin: 0;
+  margin-top: 3px;
+}
+
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
+
+.section-contact-infos {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-contact-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.email-info {
+  margin: 0;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  width: 1216px;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-social-icons-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.btn-return-to-top {
+  position: fixed;
+  bottom: 30px;
+  left: 95%;
+  visibility: hidden;
+}
+
+.btn-return-to-top.visible {
+  visibility: visible;
+}

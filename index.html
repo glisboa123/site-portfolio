@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Giuliano Rodrigues</title>
+    <script src="index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+  <div class="root-container">
+    <div class="content-container">
+      <body id="top-page">
+        <section class="section-hero">
+          <div class="barra-nav">
+            <h3 class="titulo-navegacao">Giuliano Rodrigues</h3>
+            <div>
+              <a
+                onclick="onClickScrollTo('Section-habilities')"
+                class="links-navegacao"
+                >Habilidades</a
+              >
+              <a
+                onclick="onClickScrollTo('section-portfolio')"
+                class="links-navegacao"
+                >Portfólio</a
+              >
+              <a
+                onclick="onClickScrollTo('section-experience')"
+                class="links-navegacao"
+                >Experiência</a
+              >
+            </div>
+            <button
+              class="button-contato-nav"
+              onclick="onClickScrollTo('section-contact')"
+            >
+              CONTATO
+            </button>
+          </div>
+          <div class="hero-info">
+            <div class="center-page">
+              <h1 class="hero-info-title">
+                Olá, muito prazer! <br />
+                Me chamo Giuliano Rodrigues.
+              </h1>
+              <p class="hero-info-subtitle">
+                Sou estudante de análise e desenvolvimento de sistemas desde
+                2022, com foco no desenvolvimento fullstack. <br />
+                Pratico desenvolvimento utilizando React.js e Node.js
+              </p>
+              <button
+                class="button-contact-section"
+                onclick="onClickScrollTo('section-contact')"
+              >
+                ENTRAR EM CONTATO
+              </button>
+              <div class="hero-info-icons-container">
+                <a onclick="onClickLink('https://github.com/glisboa123')">
+                  <img
+                    class="hero-info-icons-img"
+                    src="imagens/icon-github.png"
+                  />
+                </a>
+                <a
+                  onclick="onClickLink('https://www.linkedin.com/in/giulianorodriguess/')"
+                >
+                  <img
+                    class="hero-info-icons-img"
+                    src="imagens/logo-linkedin.png"
+                  />
+                </a>
+                <a
+                  onclick="onClickLink('https://www.instagram.com/giuliano_rodriguess/')"
+                >
+                  <img
+                    class="hero-info-icons-img"
+                    src="imagens/instagram.png"
+                  />
+                </a>
+              </div>
+            </div>
+            <div>
+              <img
+                class="hero-info-image"
+                src="imagens/photo-perfil.jpg"
+                alt="minha foto de perfil"
+              />
+            </div>
+          </div>
+          <button
+            onclick="onClickScrollTo('top-page')"
+            class="btn-return-to-top"
+          >
+            <span class="material-symbols-outlined"> north </span>
+          </button>
+        </section>
+        <section class="section-habilities" id="Section-habilities">
+          <h2>Habilidades</h2>
+          <h2 class="verde">que domino.</h2>
+          <div class="ability-cards-container">
+            <div class="ability-card">
+              <div>
+                <img
+                  class="ability-card-icon-img"
+                  src="imagens/skill-icon.png"
+                  alt="habilidades gerais"
+                />
+              </div>
+              <h5>Habilidades gerais</h5>
+              <p class="ability-card-subtitle">
+                Tecnologias que utilizo no dia a dia da programação
+              </p>
+              <ul class="ability-list">
+                <li>Vscode</li>
+                <li>Git</li>
+                <li>GitHub</li>
+              </ul>
+            </div>
+            <div class="ability-card">
+              <div>
+                <img
+                  class="ability-card-icon-img"
+                  src="imagens/skill-icon-net.png"
+                  alt="frontend"
+                />
+              </div>
+              <h5>Front-End</h5>
+              <p class="ability-card-subtitle">
+                Ferramentas utilizadas para criação de sistemas Web
+              </p>
+              <ul class="ability-list">
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <div class="ability-card">
+              <div>
+                <img
+                  class="ability-card-icon-img"
+                  src="imagens/skill-icon-back.png"
+                  alt="backend"
+                />
+              </div>
+              <h5>Back-End</h5>
+              <p class="ability-card-subtitle">
+                Controle de banco de dados e aplicações na nuvem
+              </p>
+              <ul class="ability-list">
+                <li>JavaScript</li>
+                <li>SQL</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="section-portfolio" id="section-portfolio">
+          <h2>Portfólio</h2>
+          <h2 class="verde">de projetos</h2>
+          <div class="section-portfolio-grid">
+            <div class="section-portfolio-card">
+              <img
+                class="section-portfolio-img"
+                src="imagens/market.png"
+                alt="img projeto market"
+              />
+              <h5>Supermarket list</h5>
+              <p class="portfolio-subtitles">
+                Aplicação em React.js e Express + MongoDB
+              </p>
+              <div class="icons-portfolio">
+                <a><img src="imagens/icon-link.png" alt="link aplicação" /></a>
+                <a
+                  ><img
+                    class="icon-github"
+                    src="imagens/icon-github.png"
+                    alt="icone github"
+                /></a>
+              </div>
+            </div>
+            <div class="section-portfolio-card">
+              <img
+                class="section-portfolio-img"
+                src="imagens/bookclub.png"
+                alt="img projeto bookclub"
+              />
+              <h5>BookClub</h5>
+              <p class="portfolio-subtitles">
+                Aplicação em React.js e Express + Sequelize
+              </p>
+              <div class="icons-portfolio">
+                <a><img src="imagens/icon-link.png" alt="link aplicação" /></a>
+                <a
+                  ><img
+                    class="icon-github"
+                    src="imagens/icon-github.png"
+                    alt="icone github"
+                /></a>
+              </div>
+            </div>
+            <div class="section-portfolio-card">
+              <img
+                class="section-portfolio-img"
+                src="imagens/bookclub.png"
+                alt="img projeto aleatorio"
+              />
+              <h5>Aleatory Project</h5>
+              <p class="portfolio-subtitles">
+                Aplicação em React.js e Express + MongoDB
+              </p>
+              <div class="icons-portfolio">
+                <a><img src="imagens/icon-link.png" alt="link aplicação" /></a>
+                <a
+                  ><img
+                    class="icon-github"
+                    src="imagens/icon-github.png"
+                    alt="icone github"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-experience" id="section-experience">
+          <h2>Experiências</h2>
+          <h2 class="verde">profissionais</h2>
+          <div class="section-experience-card">
+            <img
+              class="section-experience-card-img1"
+              src="imagens/logo-caixa-economica-federal-2048.png"
+              alt="logo auri auto peças"
+            />
+            <div class="section-experience-card-text-container">
+              <h6 class="section-experiences-card-title">
+                Estágiario de administração
+              </h6>
+              <p class="section-experiences-card-subtitle">
+                Caixa Econômica Federal - 01/janeiro/2014 até 31/dezembro/2014
+              </p>
+              <p class="section-experiences-card-text">
+                Atuava com atendimento, elaboração de planilhas, confecção de
+                relatórios, organização de documentos e preenchimento de
+                formulários internos.
+              </p>
+            </div>
+          </div>
+          <div class="section-experience-card">
+            <img
+              class="section-experience-card-img2"
+              src="imagens/logo-auri.jpg"
+              alt="logo auri auto peças"
+            />
+            <div class="section-experience-card-text-container">
+              <h6 class="section-experiences-card-title">
+                Vendedor do comércio varejista
+              </h6>
+              <p class="section-experiences-card-subtitle">
+                Auri auto peças - janeiro/2018 até outubro/2022
+              </p>
+              <p class="section-experiences-card-text">
+                Responsável por prestar atendimento ao público em geral de forma
+                presencial ou por telefone atuando com foco em vendas, além de
+                apoiar na organização da loja.
+              </p>
+            </div>
+          </div>
+          <div class="section-experience-card">
+            <img
+              class="section-experience-card-img2"
+              src="imagens/logo-auri.jpg"
+              alt="logo auri auto peças"
+            />
+            <div class="section-experience-card-text-container">
+              <h6 class="section-experiences-card-title">
+                Auxiliar de compras
+              </h6>
+              <p class="section-experiences-card-subtitle">
+                Auri auto peças - outubro/2022 até o presente momento
+              </p>
+              <p class="section-experiences-card-text">
+                Realização de pedidos e de notas fiscais, realiza cotação,
+                acompanha os prazos de entrega, verifica a qualidade dos
+                produtos e faz operações de follow-up junto aos fornecedores.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="section-contact" id="section-contact">
+          <h2>Como posso</h2>
+          <h2 class="verde">te ajudar?</h2>
+          <p>Estou à disposição para ajudar o seu projeto ou sua empresa.</p>
+          <div class="section-contact-infos">
+            <img
+              class="section-contact-icon"
+              src="imagens/icon-email.png"
+              alt="icone email"
+            />
+            <a class="email-info" href="malito:giulianorodrigues2018@gmail.com "
+              >giulianorodrigues2018@gmail.com</a
+            >
+          </div>
+          <div class="section-contact-infos">
+            <img
+              class="section-contact-icon"
+              src="imagens/phone-icon.png"
+              alt="icone telefone"
+            />
+            <a class="email-info" href="tel:(83) 9 9161-4996"
+              >(83) 9 9161-4996</a
+            >
+          </div>
+        </section>
+      </body>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <h3 class="titulo-navegacao">Giuliano Rodrigues</h3>
+        <div class="footer-social-icons-content">
+          <a onclick="onClickLink('https://github.com/glisboa123')">
+            <img class="hero-info-icons-img" src="imagens/icon-github.png" />
+          </a>
+          <a
+            onclick="onClickLink('https://www.linkedin.com/in/giulianorodriguess/')"
+          >
+            <img class="hero-info-icons-img" src="imagens/logo-linkedin.png" />
+          </a>
+          <a
+            onclick="onClickLink('https://www.instagram.com/giuliano_rodriguess/')"
+          >
+            <img class="hero-info-icons-img" src="imagens/instagram.png" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</html>
