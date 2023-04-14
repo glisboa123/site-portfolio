@@ -1,0 +1,201 @@
+@media only screen and (max-device-width: 1300px) {
+  h2 {
+    line-height: 60px;
+    font-size: 65px;
+  }
+
+  h5 {
+    font-size: 30px;
+  }
+
+  .content-container {
+    width: 96vw;
+    max-width: 96vw;
+  }
+
+  .section-hero {
+    height: 100%;
+    padding-bottom: 40px;
+  }
+
+  .titulo-navegacao {
+    font-size: 36px;
+  }
+
+  .button-contact-section {
+    height: 70px;
+    font-size: 36px;
+    font-weight: normal;
+  }
+  .button-contato-nav {
+    height: 50px;
+    font-size: 28px;
+    font-weight: normal;
+  }
+
+  .links-navegacao {
+    display: none;
+  }
+
+  .hero-info {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-top: 0px;
+  }
+
+  .center-page {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+
+  .ability-card {
+    height: auto;
+    width: 40vw;
+  }
+
+  .ability-card-subtitle {
+    font-size: 26px;
+  }
+
+  .ability-cards-container {
+    row-gap: 56px;
+    grid-template-columns: auto auto;
+    margin-top: 35px;
+    justify-content: space-around;
+  }
+
+  li {
+    font-size: 26px;
+  }
+
+  .section-habilities {
+    padding-top: 50px;
+  }
+
+  .hero-info-title {
+    font-size: 50px;
+  }
+
+  .hero-info-subtitle {
+    font-size: 30px;
+    line-height: 35px;
+    max-width: 90%;
+    text-align: justify;
+  }
+
+  .hero-info-image {
+    width: 220px;
+    height: 100%;
+  }
+
+  .btn-return-to-top {
+    left: 90%;
+    cursor: pointer;
+    margin-bottom: 16%;
+  }
+
+  .section-experience-card {
+    width: 90%;
+    height: 190px;
+  }
+
+  .section-experiences-card-title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .section-experiences-card-subtitle {
+    font-size: 23px;
+    font-weight: 500;
+  }
+
+  .section-experiences-card-text {
+    font-size: 22px;
+  }
+
+  .section-portfolio {
+    align-items: center;
+  }
+
+  .portfolio-subtitles {
+    font-size: 25px;
+  }
+
+  .section-portfolio-grid {
+    grid-template-columns: auto;
+    row-gap: 36px;
+    margin-top: 24px;
+  }
+
+  .section-portfolio-card {
+    width: 450px;
+    height: 400px;
+  }
+
+  .icons-portfolio {
+    width: 20%;
+  }
+
+  h2.verde {
+    padding-bottom: 25px;
+  }
+
+  .icon-github {
+    width: 35px;
+    height: 35px;
+  }
+
+  .icon-link {
+    width: 35px;
+    height: 35px;
+  }
+
+  .hero-info-icons-container {
+    margin-top: 15px;
+  }
+  .hero-info-icons-img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .footer-content {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .btn-return-to-top {
+    margin-bottom: auto;
+  }
+
+  .titulo-navegacao {
+    margin-bottom: 30px;
+  }
+
+  .help {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  .section-contact-infos {
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .email-info {
+    text-decoration: none;
+  }
+
+  footer {
+    height: auto;
+    padding-bottom: 30px;
+  }
+}
