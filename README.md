@@ -17,7 +17,7 @@ The website was designed with a clean and modern aesthetic in mind. I used a sim
 
 ## Preview
 
-<img src="https://github.com/glisboa123/site-portfolio/blob/main/preview.png?raw=true" height="500"/>
+<img src="https://github.com/glisboa123/site-portfolio/blob/main/preview.png?raw=true"/>
 
 :bulb: Projects
 In the projects section, you'll find examples of my work in web development. Each project includes a brief description and a link to view the live site or GitHub repository.
