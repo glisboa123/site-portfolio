@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <link rel="stylesheet" href="style.css" />
     <title>Giuliano Rodrigues</title>
-    <script src="index.js"></script>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <script src="index.js"></script>
   </head>
   <div class="root-container">
     <div class="content-container">
@@ -17,7 +18,7 @@
             <h3 class="titulo-navegacao">Giuliano Rodrigues</h3>
             <div>
               <a
-                onclick="onClickScrollTo('Section-habilities')"
+                onclick="onClickScrollTo('Section-abilities')"
                 class="links-navegacao"
                 >Habilidades</a
               >
@@ -46,9 +47,17 @@
                 Me chamo Giuliano Rodrigues.
               </h1>
               <p class="hero-info-subtitle">
-                Sou estudante de análise e desenvolvimento de sistemas desde
-                2022, com foco no desenvolvimento fullstack. <br />
-                Pratico desenvolvimento utilizando React.js e Node.js
+                Sou um aluno do segundo período do curso de ADS, iniciando em
+                2022. <br />
+                Estou focado em aprender HTML, CSS e JavaScript com ênfase em
+                front-end, utilizando a biblioteca React. <br />
+                Estou animado para desenvolver habilidades em resolução de
+                problemas e pensamento crítico, e aplicá-las em projetos
+                práticos e desafiadores para criar aplicativos web de alta
+                qualidade. <br />
+                Estou confiante de que serei capaz de encontrar oportunidades
+                emocionantes e bem remuneradas em minha carreira como
+                desenvolvedor front-end.
               </p>
               <button
                 class="button-contact-section"
@@ -96,7 +105,7 @@
             <span class="material-symbols-outlined"> north </span>
           </button>
         </section>
-        <section class="section-habilities" id="Section-habilities">
+        <section class="section-abilities" id="Section-abilities">
           <h2>Habilidades</h2>
           <h2 class="verde">que domino.</h2>
           <div class="ability-cards-container">
@@ -113,6 +122,7 @@
                 Tecnologias que utilizo no dia a dia da programação
               </p>
               <ul class="ability-list">
+                <li>Lógica de programação</li>
                 <li>Vscode</li>
                 <li>Git</li>
                 <li>GitHub</li>
@@ -170,7 +180,12 @@
                 Aplicação em React.js e Express + MongoDB
               </p>
               <div class="icons-portfolio">
-                <a><img src="imagens/icon-link.png" alt="link aplicação" /></a>
+                <a
+                  ><img
+                    class="icon-link"
+                    src="imagens/icon-link.png"
+                    alt="link aplicação"
+                /></a>
                 <a
                   ><img
                     class="icon-github"
@@ -190,7 +205,12 @@
                 Aplicação em React.js e Express + Sequelize
               </p>
               <div class="icons-portfolio">
-                <a><img src="imagens/icon-link.png" alt="link aplicação" /></a>
+                <a
+                  ><img
+                    class="icon-link"
+                    src="imagens/icon-link.png"
+                    alt="link aplicação"
+                /></a>
                 <a
                   ><img
                     class="icon-github"
@@ -210,7 +230,12 @@
                 Aplicação em React.js e Express + MongoDB
               </p>
               <div class="icons-portfolio">
-                <a><img src="imagens/icon-link.png" alt="link aplicação" /></a>
+                <a
+                  ><img
+                    class="icon-link"
+                    src="imagens/icon-link.png"
+                    alt="link aplicação"
+                /></a>
                 <a
                   ><img
                     class="icon-github"
@@ -288,7 +313,9 @@
         <section class="section-contact" id="section-contact">
           <h2>Como posso</h2>
           <h2 class="verde">te ajudar?</h2>
-          <p>Estou à disposição para ajudar o seu projeto ou sua empresa.</p>
+          <p class="help">
+            Estou à disposição para ajudar o seu projeto ou sua empresa.
+          </p>
           <div class="section-contact-infos">
             <img
               class="section-contact-icon"
