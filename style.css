@@ -174,7 +174,7 @@ footer {
 }
 
 .hero-info-image {
-  height: 320px;
+  height: 100%;
   width: 240px;
   border-radius: 40px;
   border-color: #219653;
@@ -436,4 +436,50 @@ li {
 
 .btn-return-to-top.visible {
   visibility: visible;
+}
+
+@media only screen and (max-device-width: 912px) {
+  .content-container {
+    width: 96vw;
+    max-width: 96vw;
+  }
+
+  .section-hero {
+    width: 96vw;
+    height: 50vh;
+  }
+
+  .hero-info {
+    width: 100%;
+  }
+
+  .hero-info-image {
+    width: 200px;
+  }
+
+  .ability-cards-container {
+    row-gap: 36px;
+    grid-template-columns: auto;
+    margin-top: 12px;
+  }
+
+  .btn-return-to-top {
+    left: 90%;
+    cursor: pointer;
+    margin-bottom: 16%;
+  }
+
+  .section-experience-card {
+    width: 90%;
+  }
+
+  .section-portfolio-grid {
+    grid-template-columns: auto;
+    row-gap: 36px;
+    margin-top: 24px;
+  }
+
+  .footer-content {
+    width: 100%;
+  }
 }
