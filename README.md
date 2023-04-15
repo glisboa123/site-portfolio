@@ -11,6 +11,10 @@ This website was created using HTML, CSS, and JavaScript with DOM manipulation, 
 
 <img src="https://github.com/glisboa123/site-portfolio/blob/main/preview.png?raw=true"/>
 
+## Live link:
+
+https://glisboa123.github.io/site-portfolio/
+
 ## Technologies Used
 
 This website was built using the following technologies:
